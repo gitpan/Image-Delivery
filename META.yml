@@ -1,0 +1,25 @@
+abstract: Efficient transformation and delivery of web images
+author: Adam Kennedy <cpan@ali.as>
+build_requires: 
+  IO::File: 0
+  Test::More: 0.47
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: Image-Delivery
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  Digest::MD5: 0
+  Digest::TransformPath: 0.01
+  File::Remove: 0.34
+  File::Slurp: 9999.04
+  File::Spec: 0.80
+  HTML::Location: 1.00
+  IO::Handle: 0
+  List::Util: 1.11
+  Params::Coerce: 0.13
+  perl: 5.005
+version: 0.13
