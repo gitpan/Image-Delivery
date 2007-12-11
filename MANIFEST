@@ -21,7 +21,8 @@ t/01_compile.t
 t/02_api.t
 t/03_provider.t
 t/04_delivery.t
-t/99_author.t
+t/98_pod.t
+t/99_pmv.t
 t/data/03_image.gif
 t/data/04_good/3/377f84afe0.gif
 t/data/04_good/README

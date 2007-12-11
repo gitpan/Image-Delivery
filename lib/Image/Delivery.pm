@@ -254,7 +254,7 @@ use Params::Coerce '_TransformPath' => 'Digest::TransformPath';
 
 use vars qw{$VERSION @FILETYPES};
 BEGIN {
-	$VERSION   = '0.13';
+	$VERSION   = '0.14';
 	@FILETYPES = qw{gif jpg png};
 }
 
@@ -273,6 +273,8 @@ key/value pairs.
 =item Location
 
 The required Location parameter
+
+=back
 
 =cut
 
@@ -467,7 +469,7 @@ For other issues, contact the author
 
 =head1 AUTHORS
 
-Adam Kennedy E<lt>cpan@ali.asE<gt>
+Adam Kennedy E<lt>adamk@cpan.orgE<gt>
 
 =head1 COPYRIGHT
 
